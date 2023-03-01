@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainJuguetes {
+    background-image: url(/ass/Gato\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 17vh;
+}
+
+.mainFarmacia {
+    background-image: url(/assets/pexels-anel-rossouw-2558605.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 17vh;
+}
+
+#contacto {
+    background-image: url(/assets/pexels-sebastian-coman-travel-3448793.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    margin-top: 17vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.192);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+}
+
+.navbar-nav {
+    font-weight: bolder;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.d-block {
+    object-fit: cover;
+}
+
+#logo {
+    height: 12vh;
+}
+
+.carrito-container{
+    height: 80px;
+}
+
+.carritoImage {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+    background-image: url(/assets/carrito2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+
+footer {
+    /* background-color: #f8f9fa; */
+    background: linear-gradient(#f8f9fa, rgb(42, 42, 42));
+}
+
+footer p {
+    font-weight: bold !important;
+    color: #212529ff !important;
+    font-size: 15px;
+}
+
+.imgFooter {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#logoFooter {
+    max-height: 17vh;
+}
+
+
+/* contacto */
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.359);
+}
+
+.formulario fieldset {
+    padding: 0.5rem;
+}
+
+.mover-radio {
+    padding: 10rem;
+}
+
+label {
+    color: black;
+    font-weight: bolder;
+}
+
+.fieldsetPrimero {
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset p {
+    color: black;
+    font-weight: bolder;
+}
+
+legend {
+    color: black;
+    font-weight: bolder;
+}
+
+form {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.717);
+    border-radius: 5px;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+.tituloMap {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+.tituloCont {
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 30px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+#comentarios {
+    resize: none;
+}
+
+.mainContacto {
+    min-height: 800px;
+}
+
+
+/* FARMACIA */
+
+.tituloFar {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 70px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(239, 209, 42, 0.297);
+}
+
+.tituloJug {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px;
+    font-size: 70px;
+    color: rgb(25, 25, 25);
+    background-color: rgba(255, 255, 255, 0.518);
+}
+
+.productos {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 2rem;
+    box-shadow: 5px 5px 5px;
+    width: 18rem;
+}
+
+.card:hover {
+    color: rgb(85, 74, 8);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(white, gray);
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* CAROUSEL */
+
+.imgUno {
+    background-image: url("../assets/dog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.imgDos {
+    background-image: url("../assets/dogs.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.imgTres {
+    background-image: url("../assets/catback.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.carousel-caption{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+}
+
+.carousel-caption h1 {
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 15px 20px grey;
+}
+
+.carousel-caption h2{
+    color: black;
+}
+.carousel-control-prev-icon{
+   background-color: black;
+   border-radius: 20px;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.carousel-control-next-icon
+
+/*MAIN DETALLE*/
+
+.mainDetalle {
+    height: 100%;
+    background-image: url(/assets/perroPlaya.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-index {
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: rgba(198, 197, 197, 0.33);
+    border-radius: 25px;
+}
+
+.contenedor-texto {
+    padding-top: 70px;
+}
